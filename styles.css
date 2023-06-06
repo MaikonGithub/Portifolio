@@ -19,8 +19,8 @@ body {
 /* PROFILE CARD */
 .profile-div {
     width: 430px;
-    height: 700px;
-    padding: 60px 35px 35px 35px;
+    height: 90vh;
+    padding: 40px 25px 25px 25px;
     border-radius: 40px;
     background: #ecf0f3;
     box-shadow: 13px 13px 20px #cbced1,
@@ -30,12 +30,16 @@ body {
     margin: 0;
     text-align: justify;
     padding: 10px;
+    font-size: small;
+    letter-spacing: 1px;
 }
+
+
 /* PROFILE PICTURE */
 .profile-picture {
     background: url(Assets/profile-picture.png);
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 170px;
     border-radius: 50%;
     margin: auto;
     background-size: cover;
@@ -46,6 +50,8 @@ body {
     8px 8px 15px #a7aaaf,
     -8px -8px 15px #ffffff;
 }
+
+
 /* PROFILE NAME */
 .profile-name-div {
     margin: 35px 0px 20px 0px;
@@ -53,18 +59,31 @@ body {
 .profile-name-label {
     text-align: center;
     margin: 20px 0px 0px 0px;
+    letter-spacing: 1px;
 }
 .profile-subtitle-label {
     text-align: center;
     font-weight: 200;
     margin: 5px 0px 20px 0px;
+    letter-spacing: 1px;
 }
+
+
+/* INNER SHADOW PROFILE CARD */
+.inner-shadow-profile-card {
+    box-shadow: inset 4px 4px 4px 2px #cbced1;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+
 /* ABOUT ME */
 .about-me-div {
     margin: 20px 0px 20px 0px;
 }
 .about-me-title-profile-card {
     margin: 0px 0px 5px 0px;
+    letter-spacing: 1px;
 }
 /* TOOLS */
 .tools-div {
@@ -73,8 +92,10 @@ body {
 }
 .tools-title-profile-card {
     margin: 0px 0px 5px 0px;
+    letter-spacing: 1px;
 
 }
+
 
 /* ICON BOX */
 .icons-display {
