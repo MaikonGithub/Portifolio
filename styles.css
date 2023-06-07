@@ -19,13 +19,18 @@ body {
 /* PROFILE CARD */
 .profile-div {
     width: 430px;
-    height: 90vh;
+    height: 800px;
     padding: 40px 25px 25px 25px;
     border-radius: 40px;
     background: #ecf0f3;
     box-shadow: 13px 13px 20px #cbced1,
                 -13px -13px 20px #ffffff;
 }
+
+/* TO-DO: Alterar o nome da classe 
+essa calsse serve para configurar um 
+paragrafo default dentro de inner shadow */
+
 .profile-div-elements-margin0 {
     margin: 0;
     text-align: justify;
@@ -74,6 +79,7 @@ body {
     box-shadow: inset 4px 4px 4px 2px #cbced1;
     border-radius: 40px;
     padding: 20px;
+    margin: 0px 0px 40px 0px;
 }
 
 
@@ -134,4 +140,19 @@ body {
     height: 30px;
     margin: auto;
     background-size: cover;
+}
+
+/* CONTATO BUTTON */
+
+.contact-button {
+    text-decoration: none;
+    color: #ecf0f3;
+    background-color: #555;
+    height: 60px;
+    width: 250;
+    border-radius: 40px;
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 24px;
+    
 }
