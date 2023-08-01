@@ -38,7 +38,7 @@ paragrafo default dentro de inner shadow */
 
 .profile-div-elements-margin0 {
     margin: 0;
-    text-align: justify;
+    text-align: left;
     padding: 10px;
     font-size: small;
     letter-spacing: 1px;
@@ -116,7 +116,7 @@ paragrafo default dentro de inner shadow */
 }
 /* swift icon */
 .swift-icon {
-    background: url(Assets/SWIFt.png);
+    background: url(Assets/ToolsIcons/SWIFt.png);
     width: 30px;
     height: 30px;
     margin: auto;
@@ -124,7 +124,7 @@ paragrafo default dentro de inner shadow */
 }
 /* html icon */
 .html-icon {
-    background: url(Assets/HTML.png);
+    background: url(Assets/ToolsIcons/HTML.png);
     width: 30px;
     height: 30px;
     margin: auto;
@@ -132,7 +132,7 @@ paragrafo default dentro de inner shadow */
 }
 /* css icon */
 .css-icon {
-    background: url(Assets/CSS.png);
+    background: url(Assets/ToolsIcons/CSS.png);
     width: 30px;
     height: 30px;
     margin: auto;
@@ -140,7 +140,7 @@ paragrafo default dentro de inner shadow */
 }
 /* java icon */
 .java-icon {
-    background: url(Assets/JAVA.png);
+    background: url(Assets/ToolsIcons/JAVA.png);
     width: 30px;
     height: 30px;
     margin: auto;
@@ -148,7 +148,6 @@ paragrafo default dentro de inner shadow */
 }
 
 /* CONTATO BUTTON */
-
 .contact-button {
     text-decoration: none;
     color: #ecf0f3;
@@ -165,7 +164,6 @@ paragrafo default dentro de inner shadow */
     8px 8px 15px #a7aaaf,
     -8px -8px 15px #ffffff;
 }
-
 .contact-button:hover {
     text-decoration: none;
     color: #ecf0f3;
@@ -183,24 +181,25 @@ paragrafo default dentro de inner shadow */
     -8px -8px 15px #ffffff;
 }
 
-/* EXP CARD */
-.detail-div {
+/* EXP CARD 
     width: 1000px;
     height: 800px;
     padding: 25px 25px 25px 25px;
     border-radius: 40px;
     background: #ecf0f3;
     box-shadow: 13px 13px 20px #cbced1,
-                -13px -13px 20px #ffffff;         
+    .detail-div {
+            -13px -13px 20px #ffffff;         
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;    
-}
+}*/
 
+/* EXPERIENCE/EXPERIENCIA */
 .up-box {
     margin: 0px;
-    height: 370px;
+    height: 230px;
     width: 1100px;
     border-radius: 40px;
     box-shadow: 
@@ -209,10 +208,50 @@ paragrafo default dentro de inner shadow */
     -8px -8px 15px #ffffff;
     padding: 20px;
 }
+/* invisible box (card container */
+.exp-box {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px 10px 10px 10px;
+}
+/* default exp card */
+.exp-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px 10px 20px;
+    height:100px;
+    width: 300px;
+    border-radius: 40px;
+    box-shadow: 
+    0px 0px 0px 5px #ecf0f3,
+    8px 8px 15px #a7aaaf,
+    -8px -8px 15px #ffffff;
+    padding: 20px 25px 20px 25px;
+}
+.exp-date-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px 10px 20px;
+    height:50px;
+    width: 250px;
+    border-radius: 40px;
+    box-shadow: 
+    0px 0px 0px 5px #ecf0f3,
+    8px 8px 15px #a7aaaf,
+    -8px -8px 15px #ffffff;
+    padding: 20px 25px 20px 25px;
+}
+.exp-card-label {
+    margin: 0px 0px 0px 10px;
+}
 
+/* SKILLS/HABILIDADES */
 .down-box {
     margin: 40px 0px 0px 0px;
-    height: 370px;
+    height: 400px;
     width: 1100px;
     border-radius: 40px;
     box-shadow: 
@@ -220,4 +259,69 @@ paragrafo default dentro de inner shadow */
     8px 8px 15px #a7aaaf,
     -8px -8px 15px #ffffff;
     padding: 20px;
+}
+/* invisible box (card container */
+.skill-box {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 30px 10px 10px 40px;
+}
+/* default skill card */
+.skill-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px 10px 20px;
+    height: 60px;
+    width: 250px;
+    border-radius: 40px;
+    box-shadow: 
+    0px 0px 0px 5px #ecf0f3,
+    8px 8px 15px #a7aaaf,
+    -8px -8px 15px #ffffff;
+    padding: 20px 25px 20px 25px;
+}
+
+.skill-card-label {
+    margin: 0px 0px 0px 10px;
+}
+
+.mobile-icon {
+    margin: 0px;
+    background: url(Assets/SkillsIcons/MOBILE.png);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+
+.front-end-icon {
+    margin: 0px;
+    background: url(Assets/SkillsIcons/FRONTEND.png);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+
+.programacao-icon {
+    margin: 0px;
+    background: url(Assets/SkillsIcons/PROGRAMACAO.png);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+
+.devops-icon {
+    margin: 0px;
+    background: url(Assets/SkillsIcons/DEVOPS.png);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+.language-icon {
+    margin: 0px;
+    background: url(Assets/SkillsIcons/LANGUAGE.png);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
 }
