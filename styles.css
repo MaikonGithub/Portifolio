@@ -12,22 +12,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #000000;
-    background-color: #ecf0f3;  
+    color: #17181a; 
+    background: linear-gradient(145deg, #4a4a5f, #3e3e50);
 }
 
 /* PROFILE CARD */
 .profile-div {
+    display: flex;
+    flex-direction: column;
     margin: 0px 50px;
     width: 330px;
     height: 800px;
     padding: 25px 15px 25px 15px;
     border-radius: 40px;
-    background: #ecf0f3;
-    box-shadow: 13px 13px 20px #cbced1,
-                -13px -13px 20px #ffffff;         
-    display: flex;
-    flex-direction: column;
+    background: linear-gradient(145deg, #f7f7ff, #d0d0d6);
+    box-shadow:  32px 32px 64px #2d2d3a,
+                -32px -32px 64px #5d5d78;     
     align-items: center;
     justify-content: center;    
 }
@@ -55,7 +55,7 @@ paragrafo default dentro de inner shadow */
     width: 170px;
     height: 170px;
     border-radius: 50%;
-    margin: auto;
+    margin: 20px 0px 20px 0px;
     background-size: cover;
     /* picture shadown */
     box-shadow: 
@@ -153,118 +153,6 @@ paragrafo default dentro de inner shadow */
 }
 
 
-
-
-/* CONTATO BUTTON */
-.contact-button {
-    text-decoration: none;
-    color: #ecf0f3;
-    background-color: #000000;
-    border-radius: 40px;
-    text-align: center;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-    padding: 15px 100px 15px 100px;
-    box-shadow: 
-    0px 0px 2px #5f5f5f,
-    0px 0px 0px 5px #ecf0f3,
-    8px 8px 15px #a7aaaf,
-    -8px -8px 15px #ffffff;
-}
-.contact-button:hover {
-    text-decoration: none;
-    color: #ecf0f3;
-    background-color: #4d4d4d;
-    border-radius: 40px;
-    text-align: center;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-    padding: 15px 100px 15px 100px;
-    box-shadow: 
-    0px 0px 2px #5f5f5f,
-    0px 0px 0px 5px #ecf0f3,
-    8px 8px 15px #a7aaaf,
-    -8px -8px 15px #ffffff;
-}
-
-
-
-/* EXP CARD 
-    width: 1000px;
-    height: 800px;
-    padding: 25px 25px 25px 25px;
-    border-radius: 40px;
-    background: #ecf0f3;
-    box-shadow: 13px 13px 20px #cbced1,
-    .detail-div {
-            -13px -13px 20px #ffffff;         
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;    
-}*/
-
-
-
-
-/* EXPERIENCE/EXPERIENCIA */
-.up-box {
-    margin: 0px;
-    height: 230px;
-    width: 1100px;
-    border-radius: 40px;
-    box-shadow: 
-    0px 0px 0px 5px #ecf0f3,
-    8px 8px 15px #a7aaaf,
-    -8px -8px 15px #ffffff;
-    padding: 20px;
-}
-.exp-label {
-    margin: 10px ;
-}
-/* invisible box (card container */
-.exp-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin: 10px 10px 10px 10px;
-}
-/* default exp card */
-.exp-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 20px 10px 20px;
-    height:100px;
-    width: 300px;
-    border-radius: 40px;
-    box-shadow: 
-    0px 0px 0px 5px #ecf0f3,
-    8px 8px 15px #a7aaaf,
-    -8px -8px 15px #ffffff;
-    padding: 20px 25px 20px 25px;
-}
-.exp-date-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 20px 10px 20px;
-    height:50px;
-    width: 250px;
-    border-radius: 40px;
-    box-shadow: 
-    0px 0px 0px 5px #ecf0f3,
-    8px 8px 15px #a7aaaf,
-    -8px -8px 15px #ffffff;
-    padding: 20px 25px 20px 25px;
-}
-.exp-card-label {
-    margin: 0px 0px 0px 10px;
-}
 .ap-company-icon {
     margin: 0px;
     background: url(Assets/Companys/AP.jpeg);
@@ -275,114 +163,163 @@ paragrafo default dentro de inner shadow */
 }
 
 
-
-
-/* SKILLS/HABILIDADES */
-.down-box {
-    margin: 40px 0px 0px 0px;
-    height: 350px;
+.content-box {
+    margin: 0px 0px 0px 0px;
+    height:610px;
     width: 1100px;
     border-radius: 40px;
-    box-shadow: 
-    0px 0px 0px 5px #ecf0f3,
-    8px 8px 15px #a7aaaf,
-    -8px -8px 15px #ffffff;
-    padding: 20px;
+    background: linear-gradient(145deg, #f7f7ff, #d0d0d6);
+    box-shadow:  32px 32px 64px #2d2d3a,
+                -32px -32px 64px #5d5d78;  
+    padding: 10px;
 }
-/* invisible box (card container */
-.skill-box {
+
+.content-menu {
     justify-content: center;
-    align-items: center;
     display: flex;
-    margin: 30px 10px 10px 40px;
+    margin: 10px 10px 10px 10px;
 }
-/* default skill card */
-.skill-card {
+
+.content-menu-buttom {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px 20px 10px 20px;
-    height: 60px;
-    width: 250px;
+    margin: 10px 15px 10px 15px;
+    height: 25px;
+    width: 200px;
     border-radius: 40px;
+    background: linear-gradient(145deg, #f7f7ff, #d0d0d6);
     box-shadow: 
-    0px 0px 0px 5px #ecf0f3,
     8px 8px 15px #a7aaaf,
     -8px -8px 15px #ffffff;
     padding: 20px 25px 20px 25px;
 }
 
+
+
+
+/* invisible box (card container */
+.skill-box {
+    display: none;
+    justify-content: center;
+    margin: 20px 10px 10px 10px;
+}
+/* default skill card */
+.skill-card {
+    margin: 10px 15px 10px 15px;
+    height: 450px;
+    width: 300px;
+    border-radius: 40px;
+    background: linear-gradient(145deg, #4a4a5f, #3e3e50);
+    color: #ffffff;
+    box-shadow: 
+    8px 8px 15px #a7aaaf,
+    -8px -8px 15px #ffffff;
+    padding: 20px 25px 20px 25px;
+}
+
+.skill-card-content {
+    height: 320px;
+}
+
+.skill-tag {
+display: flex;
+justify-content: center;
+
+}
+.skills-label {
+    margin: 5px;
+}
 .skill-card-label {
     margin: 0px 0px 0px 10px;
 }
+.topic-detail {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+    font-size:smaller;
+    font-style: italic;
+}
 
+.certificate-buttom {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 50px 10px 50px;
+    height: 50px;
+    width: 150px;
+    border-radius: 40px;
+    color: #17181a;
+    background: linear-gradient(145deg, #f7f7ff, #d0d0d6);
+    box-shadow:  12px 12px 25px #2d2d3a,
+                -12px -12px 25px #5d5d78; 
+}
 .mobile-icon {
     margin: 0px;
     background: url(Assets/SkillsIcons/MOBILE.png);
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
     background-size: cover;
 }
 .front-end-icon {
     margin: 0px;
     background: url(Assets/SkillsIcons/FRONTEND.png);
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
     background-size: cover;
 }
 .programacao-icon {
     margin: 0px;
     background: url(Assets/SkillsIcons/PROGRAMACAO.png);
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
     background-size: cover;
 }
-.devops-icon {
-    margin: 0px;
-    background: url(Assets/SkillsIcons/DEVOPS.png);
-    width: 30px;
-    height: 30px;
-    background-size: cover;
+
+
+
+
+/* invisible box (card container */
+.exp-box {
+    display: flex;
+    justify-content: center;
+    margin: 20px 10px 10px 10px;
 }
-.language-icon {
-    margin: 0px;
-    background: url(Assets/SkillsIcons/LANGUAGE.png);
-    width: 30px;
-    height: 30px;
-    background-size: cover;
-}
+
+
+
 
 
 /* FOOTER BOX */
 .footer-box{
     display: flex;
-    margin: 40px 0px 0px 0px;
+    margin: 50px 0px 0px 0px;
     height: 120px;
     width: 1100px;
     border-radius: 40px;
-    box-shadow: 
-    0px 0px 0px 5px #ecf0f3,
-    8px 8px 15px #a7aaaf,
-    -8px -8px 15px #ffffff;
+    background: linear-gradient(145deg, #f7f7ff, #d0d0d6);
+    box-shadow:  32px 32px 64px #2d2d3a,
+                -32px -32px 64px #5d5d78;  
     padding: 10px;
 }
-
+.anchor-setup {
+    color: #ecf0f3;
+}
 .github-card {
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 25px 10px 10px 10px;
+    margin: 25px 30px 10px 10px;
     height: 50px;
-    width: 150px;
-    border-radius: 20px;
-    background-color: #000000;
+    width: 175px;
+    border-radius: 40px;
+    background: linear-gradient(145deg, #222224, #1d1d1f);
     color: #ffffff;
     box-shadow: 
-    0px 0px 0px 5px #ecf0f3,
     8px 8px 15px #a7aaaf,
     -8px -8px 15px #ffffff;
 }
-
 .github-icon {
     margin: 0px 10px;
     background: url(Assets/FooterIcons/GITHUB.png);
@@ -390,26 +327,46 @@ paragrafo default dentro de inner shadow */
     height: 25px;
     background-size: cover;
 }
-
 .linkedin-card {
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 25px 10px 10px 10px;
+    margin: 25px 30px 10px 10px;
     height: 50px;
-    width: 150px;
-    border-radius: 20px;
-    background-color: #0f67aa;
+    width: 175px;
+    border-radius: 40px;
+    background: linear-gradient(145deg, #4b4bec, #3f3fc7);
     color: #ffffff;
     box-shadow: 
-    0px 0px 0px 5px #ecf0f3,
     8px 8px 15px #a7aaaf,
     -8px -8px 15px #ffffff;
 }
-
 .linkedin-icon {
     margin: 0px 10px;
     background: url(Assets/FooterIcons/LINKEDIN.png);
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+}
+.whatsapp-card {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 30px 10px 10px;
+    height: 50px;
+    width: 175px;
+    border-radius: 40px;
+    background: linear-gradient(145deg, #55e77a, #47c267);
+    color: #ffffff;
+    box-shadow: 
+    8px 8px 15px #a7aaaf,
+    -8px -8px 15px #ffffff;
+}
+.whatsapp-icon {
+    margin: 0px 10px;
+    background: url(Assets/FooterIcons/WHATSAPP.png);
     width: 25px;
     height: 25px;
     background-size: cover;
