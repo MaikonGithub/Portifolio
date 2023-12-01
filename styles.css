@@ -27,19 +27,18 @@ body {
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 30px;
     background: var(--balck-neumorphism);
 }
 
 /* PROFILE CARD */
 .profile-div {
+    width: 20%;
+    height: 100%;
     display: flex;
-    flex-direction: column;
-    margin: 0px 50px;
-    width: 330px;
-    height: 800px;
     padding: 25px 15px 25px 15px;
+    flex-direction: column;
     border-radius: 40px;
     background: var(--white-neumorphism);
     box-shadow:  var(--black-shadow);     
@@ -48,8 +47,11 @@ body {
 }
 
 .session-box {
-    height: 800px;
-    padding: 15px 15px 25px 15px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 75%;
+    justify-content:space-between;
 }
 /* TO-DO: Alterar o nome da classe 
 essa calsse serve para configurar um 
@@ -165,23 +167,23 @@ paragrafo default dentro de inner shadow */
 }
 
 
-
-
-
 .content-box {
-    margin: 0px 0px 0px 0px;
-    height:610px;
-    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 100%;
+    height: 80%;
     border-radius: 40px;
     background: var(--white-neumorphism);
     box-shadow: var(--black-shadow);
-    padding: 10px;
+    padding: 20px;
 }
 
 .content-menu {
-    justify-content: center;
     display: flex;
-    margin: 10px 10px 10px 10px;
+    justify-content:space-evenly;
+    height: 10%;
+    
 }
 
 .content-menu-buttom {
@@ -211,9 +213,9 @@ paragrafo default dentro de inner shadow */
 
 /* invisible box (card container */
 .skill-box {
+    height: 85%;
     display: none;
-    justify-content: center;
-    margin: 20px 10px 10px 10px;
+    justify-content: space-between;
 }
 /* default skill card */
 .skill-card {
@@ -290,9 +292,9 @@ justify-content: center;
 
 /* invisible box (card container */
 .exp-box {
+    height: 85%;
     display: none;
     justify-content: space-between;
-    margin: 20px 10px 10px 10px;
 }
 
 .company-menu {
@@ -335,18 +337,17 @@ justify-content: center;
 
 
 .about-me-content-box {
+    height: 85%;
     display: flex;
     justify-content: space-between;
-    margin: 20px 10px 10px 10px;
 }
 
 .about-me-content-picture {
     background: url(Assets/profile-picture.png);
     background-position: center;
-    width: 300px;
-    height: 450px;
+    width: 27%;
+    height: 95%;
     border-radius: 40px;
-    margin: 0px 20px 0px 0px;
     background-size: cover;
     align-items: center;
     /* picture shadown */
@@ -358,29 +359,27 @@ justify-content: center;
 }
 
 .about-me-description {
-    height: 450px;
-    width: 700;
+    height: 95%;
+    width: 70%;
     border-radius: 40px;
     background: var(--balck-neumorphism);
     box-shadow: var(--white-shadow);
-    padding: 20px 25px 20px 25px;
-    font-size: 10px;
-    font-weight: 50;
-    line-height: 140%;
-    letter-spacing: 2px;
+    padding: 2% 3% 2% 3%;
+    font-size: 15px;
+    line-height: 170%;
     color: #d0d0d6;
+    overflow: scroll;
+
 }
 
 /* FOOTER BOX */
 .footer-box{
-    display: flex;
-    margin: 50px 0px 0px 0px;
-    height: 120px;
-    width: 1100px;
+    width: 100%;
+    height: 15%;
+    display: flex; 
     border-radius: 40px;
     background: var(--white-neumorphism);
     box-shadow:  var(--black-shadow);  
-    padding: 10px;
 }
 .anchor-setup {
     color: #ecf0f3;
