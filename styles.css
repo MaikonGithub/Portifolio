@@ -185,6 +185,48 @@ paragrafo default dentro de inner shadow */
     height: 10%;
     
 }
+.carousel-content {
+    height: 85%;
+    display: none;
+    justify-content: space-between;
+}
+
+.skill-card {
+    margin: 10px 15px 10px 15px;
+    height: 90%;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    background: var(--balck-neumorphism);
+    color: #ffffff;
+    box-shadow: var(--white-shadow);
+    padding: 2% 3% 2%3%;
+}
+
+.skill-card-content {
+    height: 70%;
+    margin-left: 7%;
+}
+
+.skill-tag {
+    height: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.certificate-buttom {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    height: 17%;
+    width: 100%;
+    border-radius: 40px;
+    color: #17181a;
+    background: var(--white-neumorphism);
+    box-shadow:  var(--black-shadow); 
+}
 
 .content-menu-buttom {
     display: flex;
@@ -208,63 +250,6 @@ paragrafo default dentro de inner shadow */
   
 
 
-
-
-
-/* invisible box (card container */
-.skill-box {
-    height: 85%;
-    display: none;
-    justify-content: space-between;
-}
-/* default skill card */
-.skill-card {
-    margin: 10px 15px 10px 15px;
-    height: 450px;
-    width: 300px;
-    border-radius: 40px;
-    background: var(--balck-neumorphism);
-    color: #ffffff;
-    box-shadow: var(--white-shadow);
-    padding: 20px 25px 20px 25px;
-}
-
-.skill-card-content {
-    height: 320px;
-}
-
-.skill-tag {
-display: flex;
-justify-content: center;
-
-}
-.skills-label {
-    margin: 5px;
-}
-.skill-card-label {
-    margin: 0px 0px 0px 10px;
-}
-.topic-detail {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 50;
-    font-size:smaller;
-    font-style: italic;
-    line-height: 150%;
-}
-
-.certificate-buttom {
-    display: flex;
-    text-decoration: none;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 50px 10px 50px;
-    height: 50px;
-    width: 150px;
-    border-radius: 40px;
-    color: #17181a;
-    background: var(--white-neumorphism);
-    box-shadow:  var(--black-shadow); 
-}
 .mobile-icon {
     margin: 0px;
     background: url(Assets/SkillsIcons/MOBILE.png);
@@ -291,14 +276,11 @@ justify-content: center;
 
 
 /* invisible box (card container */
-.exp-box {
-    height: 85%;
-    display: none;
-    justify-content: space-between;
-}
+
 
 .company-menu {
-    margin: 20px 20px 20px 0px;
+    height: 100%;
+    width: 20%;
 }
 .ap-company-buttom {
     display: flex;
@@ -322,8 +304,8 @@ justify-content: center;
 }
 
 .job-description {
-    height: 450px;
-    width: 700;
+    height: 100%;
+    width: 80%;
     border-radius: 40px;
     background: var(--balck-neumorphism);
     box-shadow: var(--white-shadow);
@@ -333,13 +315,6 @@ justify-content: center;
     line-height: 140%;
     letter-spacing: 2px;
     color: #d0d0d6;
-}
-
-
-.about-me-content-box {
-    height: 85%;
-    display: flex;
-    justify-content: space-between;
 }
 
 .about-me-content-picture {
